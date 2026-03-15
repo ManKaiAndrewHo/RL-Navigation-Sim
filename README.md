@@ -64,7 +64,8 @@ python visualize.py
 
 ---
 ## Result
-
+![image alt](https://github.com/ManKaiAndrewHo/RL-Navigation-Sim/blob/f01289743f7f71b1ee7cdfa8b52399af8313223a/Image/Graph.jpg)
+![image alt](
 ---
 ## Why BFS and Not Just RL?
 
