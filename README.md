@@ -45,7 +45,6 @@ Breadth-First Search finds the guaranteed shortest path through the known grid. 
 ```
 ├── grid_world.py      # GridWorld environment, Q-learning training, BFS
 ├── visualize.py       # Visualizes learned path vs BFS path and reward convergence
-├── experiment.py      # Runs evaluation across multiple environments
 └── README.md
 ```
 
