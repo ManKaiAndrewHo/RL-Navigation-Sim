@@ -63,7 +63,9 @@ python visualize.py
 ```
 
 ---
+## Result
 
+---
 ## Why BFS and Not Just RL?
 
 BFS finds the shortest path when the full environment is known and movement is deterministic. Q-learning is useful when the agent must **discover** the environment through interaction and adapt to uncertainty. Using both shows the tradeoff between classical planning and learned policies — and gives a concrete way to measure how well the agent performs.
