@@ -64,17 +64,6 @@ python visualize.py
 
 ---
 
-## Results
-
-The agent consistently learns near-optimal navigation policies despite the stochastic noise. Early episodes show highly negative rewards from random exploration. By around episode 200–400, reward curves stabilize and the learned path converges toward the BFS optimal path.
-
-Example output:
-```
-Grid Size: 8x8 | ✅ | RL: 8 steps | BFS: 6 steps | Final reward: 95.0
-```
-
----
-
 ## Why BFS and Not Just RL?
 
 BFS finds the shortest path when the full environment is known and movement is deterministic. Q-learning is useful when the agent must **discover** the environment through interaction and adapt to uncertainty. Using both shows the tradeoff between classical planning and learned policies — and gives a concrete way to measure how well the agent performs.
