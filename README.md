@@ -62,11 +62,6 @@ pip install numpy matplotlib
 python visualize.py
 ```
 
-**Run evaluation across multiple environments**
-```
-python experiment.py
-```
-
 ---
 
 ## Results
